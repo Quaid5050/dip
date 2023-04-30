@@ -14,6 +14,7 @@ img = np.array([
 [0, 5, 4, 2, 2, 2, 3],
 [3, 3, 3, 3, 4, 5, 5]
 ])
+print("hello")
 # Calculate the histogram of the original image
 hist, bins = np.histogram(img.flatten(), 255, [0, 255])
 # Calculate the cumulative distribution function (CDF)
